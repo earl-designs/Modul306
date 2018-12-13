@@ -1,0 +1,42 @@
+[
+  {
+    "Username": "Gregory",
+    "Email": "bessiegriffin@magnemo.com",
+    "Password": "password",
+    "CreateDate": "2017-05-14",
+    "PreName": "Gregory",
+    "LastName": "Gregory"
+  },
+  {
+    "Username": "Swanson",
+    "Email": "reneebarrett@isologia.com",
+    "Password": "password",
+    "CreateDate": "2017-05-24",
+    "PreName": "Swanson",
+    "LastName": "Swanson"
+  },
+  {
+    "Username": "Smith",
+    "Email": "roseclark@cablam.com",
+    "Password": "password",
+    "CreateDate": "2017-05-10",
+    "PreName": "Smith",
+    "LastName": "Smith"
+  },
+  {
+    "Username": "Preston",
+    "Email": "lydiamoody@harmoney.com",
+    "Password": "password",
+    "CreateDate": "2017-05-02",
+    "PreName": "Preston",
+    "LastName": "Preston"
+  },
+  {
+    "Username": "Flynn",
+    "Email": "glovergamble@geekus.com",
+    "Password": "password",
+    "CreateDate": "2017-05-18",
+    "PreName": "Flynn",
+    "LastName": "Flynn"
+  }
+]

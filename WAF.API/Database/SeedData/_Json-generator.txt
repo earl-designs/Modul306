@@ -1,0 +1,17 @@
+##########################################################
+# User + ProfilPic Data
+##########################################################
+
+[
+  '{{repeat(5)}}',
+  {
+    Username: '{{surname()}}',
+    Email: '{{email([random])}}',
+    Password: 'password',
+    
+    CreateDate: '{{date(new Date(2017,0,1), new Date(2017, 7, 31), "YYYY-MM-dd")}}',
+    
+    PreName: function(){ return this.Username; },
+    LastName: function(){ return this.Username; }
+  }
+]
