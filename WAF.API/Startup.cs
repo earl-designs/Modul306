@@ -59,7 +59,7 @@ namespace WAF.API
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, Seed seeder)
         {
             if (env.IsDevelopment())
             {
@@ -81,7 +81,7 @@ namespace WAF.API
                     });
                 });
             }
-            //seeder.SeedData(); // TODO: MMA für Seeding --> Entfernen
+            seeder.SeedData(); // TODO: MMA für Seeding --> Entfernen
             app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
             app.UseAuthentication();
             app.UseMvc();

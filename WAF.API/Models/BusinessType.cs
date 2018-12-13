@@ -1,8 +1,8 @@
 namespace WAF.API.Models
 {
-    public enum BusinessType
+    public class BusinessType
     {
-        Bar = 1,
-        Restaurant = 2,
+        public int Id { get; set; }        
+        public string BusinessTypeName { get; set; }
     }
 }

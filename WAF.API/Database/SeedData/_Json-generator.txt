@@ -1,4 +1,54 @@
 ##########################################################
+# PaymentType
+##########################################################
+
+[
+  {
+    PaymentName: 'Bar'
+  },
+  {
+    PaymentName: 'Visa'
+  },
+  {
+    PaymentName: 'Mastercard'
+  },
+  {
+    PaymentName: 'Postfinance'
+  },
+  {
+    PaymentName: 'Twint'
+  }
+]
+
+
+##########################################################
+# BusinessType
+##########################################################
+
+[
+  {
+    BusinessTypeName: 'Restaurant'
+  },
+  {
+    BusinessTypeName: 'Bar'
+  }
+]
+
+
+##########################################################
+# OpeningTime
+##########################################################
+
+[
+  '{{repeat(10)}}',
+  {
+    From: '{{integer([10], [19], 00)}}:00',
+    To: '{{integer([20], [23], 00)}}:00'
+  }
+]
+
+
+##########################################################
 # Business
 ##########################################################
 
@@ -10,7 +60,6 @@
     Password: 'password',
     
     CreateDate: '{{date(new Date(2017,0,1), new Date(2017, 7, 31), "YYYY-MM-dd")}}',
-    BusinessType: '{{integer([1],[2])}}',
     WebLink: 'www.google.ch',
     PhoneNumber: '{{phone("+41 xxx xx xx")}}',
         
@@ -18,20 +67,7 @@
     Street: 'Dummy Strasse',
     HouseNumber: '{{integer([1],[20])}}',
     City: 'Winterthur',
-    Plz: 8000,
-    
-    PaymentOptions: '{{integer([1],[5])}}',
-    OpeningTimes: 
-    [
-      {
-        From: '10:00',
-        To: '14:00'
-      },
-      {
-        From: '17:00',
-        To: '23:00'
-      }
-    ]
+    Plz: 8000    
   }
 ]
 

@@ -14,7 +14,10 @@ namespace WAF.API.Models
         public BusinessType BusinessType { get; set; }
         public string WebLink { get; set; }
         public string PhoneNumber { get; set; }
-        public Address Address {get; set;}
+        public string Street { get; set; }
+        public int HouseNumber { get; set; }
+        public string City { get; set; }
+        public int Plz { get; set; }
         public List<PaymentOption> PaymentOptions { get; set; }
         public List<OpeningTime> OpeningTimes { get; set; }
     }

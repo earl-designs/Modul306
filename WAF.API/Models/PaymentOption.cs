@@ -1,11 +1,8 @@
 namespace WAF.API.Models
 {
-    public enum PaymentOption
+    public class PaymentOption
     {
-        Visa = 1,
-        Mastercard = 2,
-        Bar = 3,
-        Postfinance = 4,
-        Twint = 5;
+        public int Id { get; set; }
+        public string PaymentName { get; set; }
     }
 }

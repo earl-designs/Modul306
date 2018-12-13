@@ -9,5 +9,11 @@ namespace WAF.API.Data
 
         // User Tables
         public DbSet<User> User { get; set; }
+
+        // Business Tables
+        public DbSet<Business> Business { get; set; }
+        public DbSet<BusinessType> BusinessType { get; set; }
+        public DbSet<PaymentOption> PaymentOption { get; set; }
+        public DbSet<OpeningTime> OpeningTime { get; set; }
     }
 }
