@@ -1,42 +1,72 @@
 [
   {
-    "Username": "Gregory",
-    "Email": "bessiegriffin@magnemo.com",
+    "Username": "Willson",
+    "Email": "cochranle@datacator.com",
     "Password": "password",
-    "CreateDate": "2017-05-14",
-    "PreName": "Gregory",
-    "LastName": "Gregory"
-  },
-  {
-    "Username": "Swanson",
-    "Email": "reneebarrett@isologia.com",
-    "Password": "password",
-    "CreateDate": "2017-05-24",
-    "PreName": "Swanson",
-    "LastName": "Swanson"
+    "CreateDate": "2017-07-26",
+    "PreName": "Willson",
+    "LastName": "Willson",
+    "BirthDate": "1991-11-26",
+    "PhoneNumber": "+41 816 56 92",
+    "Street": "Dummy Strasse",
+    "HouseNumber": 3,
+    "City": "Winterthur",
+    "Plz": 8000
   },
   {
     "Username": "Smith",
-    "Email": "roseclark@cablam.com",
-    "Password": "password",
-    "CreateDate": "2017-05-10",
-    "PreName": "Smith",
-    "LastName": "Smith"
-  },
-  {
-    "Username": "Preston",
-    "Email": "lydiamoody@harmoney.com",
-    "Password": "password",
-    "CreateDate": "2017-05-02",
-    "PreName": "Preston",
-    "LastName": "Preston"
-  },
-  {
-    "Username": "Flynn",
-    "Email": "glovergamble@geekus.com",
+    "Email": "barretthardy@grainspot.com",
     "Password": "password",
     "CreateDate": "2017-05-18",
-    "PreName": "Flynn",
-    "LastName": "Flynn"
+    "PreName": "Smith",
+    "LastName": "Smith",
+    "BirthDate": "1989-06-01",
+    "PhoneNumber": "+41 921 45 13",
+    "Street": "Dummy Strasse",
+    "HouseNumber": 5,
+    "City": "Winterthur",
+    "Plz": 8000
+  },
+  {
+    "Username": "Payne",
+    "Email": "hooverpace@earbang.com",
+    "Password": "password",
+    "CreateDate": "2017-05-26",
+    "PreName": "Payne",
+    "LastName": "Payne",
+    "BirthDate": "1994-05-22",
+    "PhoneNumber": "+41 930 41 52",
+    "Street": "Dummy Strasse",
+    "HouseNumber": 6,
+    "City": "Winterthur",
+    "Plz": 8000
+  },
+  {
+    "Username": "Avila",
+    "Email": "joeverett@unisure.com",
+    "Password": "password",
+    "CreateDate": "2017-02-03",
+    "PreName": "Avila",
+    "LastName": "Avila",
+    "BirthDate": "1975-05-15",
+    "PhoneNumber": "+41 860 57 23",
+    "Street": "Dummy Strasse",
+    "HouseNumber": 20,
+    "City": "Winterthur",
+    "Plz": 8000
+  },
+  {
+    "Username": "Fletcher",
+    "Email": "tericollier@amril.com",
+    "Password": "password",
+    "CreateDate": "2017-04-25",
+    "PreName": "Fletcher",
+    "LastName": "Fletcher",
+    "BirthDate": "1993-04-01",
+    "PhoneNumber": "+41 890 54 52",
+    "Street": "Dummy Strasse",
+    "HouseNumber": 13,
+    "City": "Winterthur",
+    "Plz": 8000
   }
 ]

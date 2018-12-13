@@ -4,6 +4,5 @@ namespace WAF.API.Models
     {
         Bar = 1,
         Restaurant = 2,
-        
     }
 }

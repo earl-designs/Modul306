@@ -1,5 +1,43 @@
 ##########################################################
-# User + ProfilPic Data
+# Business
+##########################################################
+
+[
+  '{{repeat(5)}}',
+  {
+    Username: '{{surname()}}',
+    Email: '{{email([random])}}',
+    Password: 'password',
+    
+    CreateDate: '{{date(new Date(2017,0,1), new Date(2017, 7, 31), "YYYY-MM-dd")}}',
+    BusinessType: '{{integer([1],[2])}}',
+    WebLink: 'www.google.ch',
+    PhoneNumber: '{{phone("+41 xxx xx xx")}}',
+        
+    
+    Street: 'Dummy Strasse',
+    HouseNumber: '{{integer([1],[20])}}',
+    City: 'Winterthur',
+    Plz: 8000,
+    
+    PaymentOptions: '{{integer([1],[5])}}',
+    OpeningTimes: 
+    [
+      {
+        From: '10:00',
+        To: '14:00'
+      },
+      {
+        From: '17:00',
+        To: '23:00'
+      }
+    ]
+  }
+]
+
+
+##########################################################
+# User
 ##########################################################
 
 [
@@ -12,6 +50,14 @@
     CreateDate: '{{date(new Date(2017,0,1), new Date(2017, 7, 31), "YYYY-MM-dd")}}',
     
     PreName: function(){ return this.Username; },
-    LastName: function(){ return this.Username; }
+    LastName: function(){ return this.Username; },
+    BirthDate: '{{date(new Date(1970,0,1), new Date(2000, 7, 31), "YYYY-MM-dd")}}',
+    
+    PhoneNumber: '{{phone("+41 xxx xx xx")}}',
+    
+    Street: 'Dummy Strasse',
+    HouseNumber: '{{integer([1],[20])}}',
+    City: 'Winterthur',
+    Plz: 8000
   }
 ]

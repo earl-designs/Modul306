@@ -14,8 +14,8 @@ namespace WAF.API.Models
 
         public string PreName { get; set; }
         public string LastName { get; set; }
-        public int Age { get; set; }
-        public string tel { get; set; }
+        public DateTime BirthDate { get; set; }
+        public string PhoneNumber { get; set; }
         public Address Address {get; set;}
     }
 }

@@ -6,5 +6,6 @@ namespace WAF.API.Models
         Mastercard = 2,
         Bar = 3,
         Postfinance = 4,
+        Twint = 5;
     }
 }
