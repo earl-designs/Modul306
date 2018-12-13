@@ -1,0 +1,11 @@
+D:\Daten\develop\Schule\Modul306\WAF.API\bin\Debug\netcoreapp2.0\WAF.API.deps.json
+D:\Daten\develop\Schule\Modul306\WAF.API\bin\Debug\netcoreapp2.0\WAF.API.runtimeconfig.json
+D:\Daten\develop\Schule\Modul306\WAF.API\bin\Debug\netcoreapp2.0\WAF.API.runtimeconfig.dev.json
+D:\Daten\develop\Schule\Modul306\WAF.API\bin\Debug\netcoreapp2.0\WAF.API.dll
+D:\Daten\develop\Schule\Modul306\WAF.API\bin\Debug\netcoreapp2.0\WAF.API.pdb
+D:\Daten\develop\Schule\Modul306\WAF.API\obj\Debug\netcoreapp2.0\WAF.API.csprojAssemblyReference.cache
+D:\Daten\develop\Schule\Modul306\WAF.API\obj\Debug\netcoreapp2.0\WAF.API.csproj.CoreCompileInputs.cache
+D:\Daten\develop\Schule\Modul306\WAF.API\obj\Debug\netcoreapp2.0\WAF.API.AssemblyInfoInputs.cache
+D:\Daten\develop\Schule\Modul306\WAF.API\obj\Debug\netcoreapp2.0\WAF.API.AssemblyInfo.cs
+D:\Daten\develop\Schule\Modul306\WAF.API\obj\Debug\netcoreapp2.0\WAF.API.dll
+D:\Daten\develop\Schule\Modul306\WAF.API\obj\Debug\netcoreapp2.0\WAF.API.pdb

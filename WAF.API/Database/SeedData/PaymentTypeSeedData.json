@@ -1,0 +1,17 @@
+[
+    {
+      "PaymentName": "Bar"
+    },
+    {
+      "PaymentName": "Visa"
+    },
+    {
+      "PaymentName": "Mastercard"
+    },
+    {
+      "PaymentName": "Postfinance"
+    },
+    {
+      "PaymentName": "Twint"
+    }
+  ]
